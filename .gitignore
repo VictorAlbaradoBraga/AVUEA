@@ -1,0 +1,53 @@
+# === Python / Geral ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+build/
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# === Ambiente virtual ===
+venv/
+.venv/
+ENV/
+env/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Sistema operacional ===
+.DS_Store
+Thumbs.db
+
+# === Config sensível ===
+.env
+*.env
+
+# === Banco de dados / Docker volumes ===
+postgres_data/
+postgres_data_*/
+postgres-data/
+postgres_data_backup/
+
+# === Dados gerados pelo Chroma ===
+data/vectorstore/
+data/vectorstore/*
+
+# (Opcional) se você NÃO quiser versionar os PDFs,
+# descomenta a linha abaixo:
+# data/pdfs/
+
+# === Cache de modelos Hugging Face (se estiver dentro do projeto) ===
+huggingface/
+.huggingface/
+models/

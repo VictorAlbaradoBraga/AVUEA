@@ -6,7 +6,11 @@ pydantic
 python-dotenv
 
 langchain
+langchain-text-splitters
 langchain-community
 langchain-huggingface
 chromadb
 pypdf
+transformers
+sentencepiece
+sentence-transformers
