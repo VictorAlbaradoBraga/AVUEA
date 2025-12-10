@@ -51,3 +51,8 @@ data/vectorstore/*
 huggingface/
 .huggingface/
 models/
+backend/data/vectorstore/chroma.sqlite3
+backend/data/vectorstore/2ee5ccb4-f020-4e8c-a0bb-a0b9d888c252/link_lists.bin
+backend/data/vectorstore/2ee5ccb4-f020-4e8c-a0bb-a0b9d888c252/length.bin
+backend/data/vectorstore/2ee5ccb4-f020-4e8c-a0bb-a0b9d888c252/header.bin
+backend/data/vectorstore/2ee5ccb4-f020-4e8c-a0bb-a0b9d888c252/data_level0.bin

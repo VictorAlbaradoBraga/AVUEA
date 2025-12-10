@@ -15,6 +15,9 @@ EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 # EMBEDDING_MODEL_NAME = "Qwen/Qwen3-Embedding-0.6B"
 
 def run_ingest():
+    if VECTOR_DIR.exists() and any(VECTOR_DIR.iterdir()):
+        print(f"Vectorstore já existe em {VECTOR_DIR}, pulando ingestão.")
+        return
     docs = []
     for pdf_path in PDF_DIR.glob("*.pdf"):
         loader = PyPDFLoader(str(pdf_path))
